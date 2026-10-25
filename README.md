@@ -6,30 +6,20 @@ Electrical Engineering student at **UMass Amherst** (Class of 20XX), building to
 
 ---
 
-## Featured Projects
+## Featured Project
 
 ### [CircuitScope](https://github.com/yabdelmesih-ops/circuitscope)
-An interactive circuit solver: build a circuit and instantly see node voltages, branch currents and equivalent circuits.
+An interactive DC circuit solver: draw a schematic in the browser, solve it with Modified Nodal Analysis, and see why every node has its voltage.
 
-**Stack:** Python · NumPy · Streamlit
+**Stack:** Python · NumPy · Streamlit · JavaScript/SVG
 
 - Solves linear circuits using **Modified Nodal Analysis (MNA)**
 - Computes **Thévenin and Norton equivalents** between any two nodes
 - Supports **ideal op-amp** models
-- Interactive visualization of circuit results
-- Automated test suite that verifies solver output
+- Drag-and-drop schematic editor with click-to-explain KCL lessons and current arrows
+- Verified against nine hand-calculated reference circuits, plus KCL and power-balance checks
 
-[Live demo](https://link-to-demo) · [Source](https://github.com/yabdelmesih-ops/circuitscope)
-
-### Python Chess Engine
-An object-oriented chess engine that enforces the full rules of play.
-
-**Stack:** Python · Object-oriented design
-
-- Legal move generation for every piece
-- Check, checkmate and stalemate detection
-- Pawn promotion
-- Complete board-state management
+[Source](https://github.com/yabdelmesih-ops/circuitscope)
 
 ---
 
