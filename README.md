@@ -15,7 +15,7 @@ A real-time FPGA attitude estimator that reads an inertial measurement unit over
 
 - Fuses accelerometer and gyroscope data with a **complementary filter** in **fixed-point hardware**, with on-chip gyro bias calibration
 - Computes tilt with a time-shared **CORDIC** unit (shifts and adds, no multipliers), 0.40 µs latency per sample at 100 MHz
-- Verified **bit-exact** against a Python reference model with 3 self-checking testbenches covering 25,000+ test cases
+- Verified **bit-exact** against a Python reference model with 4 self-checking testbenches covering 28,000+ test cases
 - Full-system test drives the design from a simulated IMU and checks every SPI command and UART data packet
 - 0.12° RMS roll error in simulation, versus 1.17° from the accelerometer alone and 16.4° from the gyroscope alone
 - **Validated on hardware:** 20,000/20,000 samples bit-exact on a Xilinx Artix-7 through hardware-in-the-loop testing; timing met at 100 MHz (WNS +1.163 ns). Live-sensor bring-up in progress
@@ -31,6 +31,7 @@ An interactive DC circuit solver: draw a schematic in the browser, solve it with
 
 - Solves DC circuits using **Modified Nodal Analysis (MNA)**
 - Computes **Thévenin and Norton equivalents** between any two nodes
+- Step-by-step **Circuits I methods** on your own drawing: supernodes, superposition, source transformations, voltage dividers, summing amplifiers
 - Models **ideal op amps** in negative-feedback and open-loop comparator modes
 - Drag-and-drop schematic editor with click-to-explain KCL lessons and current arrows
 - Validated against **ngspice** across 29 configurations (293 comparisons) and against hand calculations
@@ -43,7 +44,8 @@ An interactive DC circuit solver: draw a schematic in the browser, solve it with
 ## Technical Skills
 
 **Languages:** Python · Verilog · SystemVerilog · MATLAB
-**Tools & Libraries:** NumPy · Streamlit · LTspice · Git
+**Tools & Libraries:** Vivado · Icarus Verilog · NumPy · Streamlit · LTspice · Git
+**Hardware:** Xilinx Artix-7 FPGA (Alchitry Au)
 
 ---
 
