@@ -44,7 +44,9 @@ An interactive DC circuit solver: draw a schematic in the browser, solve it with
 ## Technical Skills
 
 **Languages:** Python · Verilog · SystemVerilog · MATLAB
+
 **Tools & Libraries:** Vivado · Icarus Verilog · NumPy · Streamlit · LTspice · Git
+
 **Hardware:** Xilinx Artix-7 FPGA (Alchitry Au)
 
 ---
