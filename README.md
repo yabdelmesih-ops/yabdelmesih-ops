@@ -18,7 +18,7 @@ A real-time FPGA attitude estimator that reads an inertial measurement unit over
 - Verified **bit-exact** against a Python reference model with 3 self-checking testbenches covering 25,000+ test cases
 - Full-system test drives the design from a simulated IMU and checks every SPI command and UART data packet
 - 0.12° RMS roll error in simulation, versus 1.17° from the accelerometer alone and 16.4° from the gyroscope alone
-- Status: design and verification complete in simulation; hardware bring-up in progress
+- **Validated on hardware:** 20,000/20,000 samples bit-exact on a Xilinx Artix-7 through hardware-in-the-loop testing; timing met at 100 MHz (WNS +1.163 ns). Live-sensor bring-up in progress
 
 [Source](https://github.com/yabdelmesih-ops/imu-attitude-fpga)
 
