@@ -1,6 +1,6 @@
 # Youssef Abdelmesih
 
-Electrical Engineering student at **UMass Amherst** (Class of 2029), building tools where circuits meet software. Focused on **digital design, FPGA development and embedded systems**.
+Electrical Engineering student at **UMass Amherst** (Class of 2029), interested in FPGA design, embedded systems, and navigation and control hardware. Currently building a real-time IMU attitude estimator on a Tang Nano 9K.
 
 [LinkedIn](https://www.linkedin.com/in/youssef-abdelmesih-848a5738a) · [Email](mailto:yabdelmesih@umass.edu) · [Resume](https://link-to-your-resume)
 
