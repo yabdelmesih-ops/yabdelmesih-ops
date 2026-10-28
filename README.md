@@ -35,7 +35,7 @@ An interactive DC circuit solver: draw a schematic in the browser, solve it with
 - Models **ideal op amps** in negative-feedback and open-loop comparator modes
 - Drag-and-drop schematic editor with click-to-explain KCL lessons and current arrows
 - Validated against **ngspice** across 29 configurations (293 comparisons) and against hand calculations
-- SPICE netlist export, guided practice questions, and an end-to-end browser test suite
+- SPICE netlist export and an end-to-end browser test suite that caught and fixed interface bugs
 
 [Source](https://github.com/yabdelmesih-ops/circuitscope)
 
